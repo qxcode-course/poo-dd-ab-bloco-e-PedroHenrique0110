@@ -1,0 +1,33 @@
+2025-12-14 00:09:15, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:09:16, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 00:09:17, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:15:46, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:15:46, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:50
+2025-12-14 00:15:50, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:18:30, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:18:30, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:50
+2025-12-14 00:18:31, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:33:27, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:33:28, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 00:33:28, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:36:10, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:36:11, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:61
+2025-12-14 00:38:22, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:72
+2025-12-14 00:38:27, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:38:28, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:38:29, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 00:39:15, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:72
+2025-12-14 00:39:30, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 00:39:31, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:39:50, SELF, v:1, k:poo@zoo, rate:100, alone:10, study:90
+2025-12-14 00:42:48, MOVE, v:1, k:poo@pagamento, mode:PICK
+2025-12-14 00:42:48, EXEC, v:1, k:poo@pagamento, mode:LOCK, rate:0, size:81
+2025-12-14 00:45:04, EXEC, v:1, k:poo@pagamento, mode:LOCK, rate:0, size:80
+2025-12-14 00:45:19, EXEC, v:1, k:poo@pagamento, mode:LOCK, rate:0, size:81
+2025-12-14 00:45:34, MOVE, v:1, k:poo@pagamento, mode:BACK
+2025-12-14 00:45:36, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 00:45:36, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:73
+2025-12-14 00:45:39, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 00:46:18, MOVE, v:1, k:poo@estacionamento, mode:PICK
+2025-12-14 00:46:19, EXEC, v:1, k:poo@estacionamento, mode:FULL, rate:0
+2025-12-14 00:46:20, MOVE, v:1, k:poo@estacionamento, mode:BACK

@@ -68,11 +68,14 @@ def processar_pagamentos(pagamentos: list[Pagamento]):
         pag.processar()
         if isinstance(pag, CartaoCredito):
             print(pag.get_limite())
+        print()
 
-pag: Pagamento = CartaoCredito(nome = "David", descricao = "Coxinha", limite = 500.00, num = 123, valor = 0.50)
-pag: Pagamento = Pix(descricao = "Salgado", banco = "Santander", chave = "telefone" , valor = 3.50)
-pag: Pagamento = Boleto(descricao = "Enroladinho", codigo_barras = "00000000000000", vencimento = "12/12" , valor = 5.00)
-pagamentos: list[Pagamento] = [pag]
+pagamentos:list[Pagamento] = [
+    CartaoCredito(nome = "David", descricao = "Coxinha", limite = 500.00, num = 123, valor = 0.50),
+    Pix(descricao = "Salgado", banco = "Santander", chave = "telefone" , valor = 3.50),
+    Boleto(descricao = "Enroladinho", codigo_barras = "00000000000000", vencimento = "12/12" , valor = 5.00)
+]
+
 processar_pagamentos(pagamentos)
 
     
